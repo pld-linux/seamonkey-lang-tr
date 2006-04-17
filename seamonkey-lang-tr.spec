@@ -25,10 +25,10 @@ Turkish resources for SeaMonkey.
 Tureckie pliki jêzykowe dla SeaMonkeya.
 
 %prep
-%setup -q -c -T
-unzip %{SOURCE0}
+%setup -q -c
 install %{SOURCE1} .
-./gen-installed-chrome.sh locale chrome/{TR,tr-TR,tr-unix}.jar > lang-tr-installed-chrome.txt
+./gen-installed-chrome.sh locale chrome/{TR,tr-TR,tr-unix}.jar \
+	> lang-tr-installed-chrome.txt
 
 %install
 rm -rf $RPM_BUILD_ROOT
