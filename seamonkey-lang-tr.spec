@@ -2,7 +2,7 @@
 %define	_reg	TR
 %define	_lare	%{_lang}-%{_reg}
 Summary:	Turkish resources for SeaMonkey
-Summary(pl.UTF-8):   Tureckie pliki językowe dla SeaMonkeya
+Summary(pl.UTF-8):	Tureckie pliki językowe dla SeaMonkeya
 Name:		seamonkey-lang-%{_lang}
 Version:	1.0
 Release:	1
