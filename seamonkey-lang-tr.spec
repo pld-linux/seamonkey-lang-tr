@@ -11,7 +11,7 @@ Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/seamonkey/releases/%{version}/contrib-localized/seamonkey-%{version}.%{_lare}.langpack.xpi
 # Source0-md5:	ea0a0175ab0f6d39a11f14102787cd92
 Source1:	gen-installed-chrome.sh
-URL:		http://www.mozilla.org/projects/seamonkey/
+URL:		http://www.seamonkey-project.org/
 BuildRequires:	unzip
 Requires(post,postun):	seamonkey >= %{version}
 Requires(post,postun):	textutils
